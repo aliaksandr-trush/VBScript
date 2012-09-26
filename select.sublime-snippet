@@ -1,0 +1,15 @@
+<snippet>
+	<content><![CDATA[
+Select Case ${1}
+Case ${2}
+	${3}
+Case Else
+	${4}
+End Select
+${0}
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>Select</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<scope>source.vbs</scope>
+</snippet>
